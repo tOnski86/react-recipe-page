@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Banner />
-      <div className='*:pb-8 *:pt-8 *:border-b-2 *:border-stone-100 px-6'>
+      <div className='px-8'>
         <Header />
         <Preparation />
         <Ingredients />
@@ -21,3 +21,7 @@ function App() {
 }
 
 export default App;
+
+{
+  /* <div className='*:pb-8 *:pt-8 *:border-b-2  *:border-stone-100'></div> */
+}
