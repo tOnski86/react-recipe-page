@@ -7,7 +7,7 @@ import Nutrition from './components/Nutrition';
 
 function App() {
   return (
-    <div className='md:max-w-2xl md:my-12 bg-white md:rounded-2xl'>
+    <div className='sm:max-w-3xl md:my-28 bg-white md:rounded-2xl'>
       <Banner />
       <div className='px-8'>
         <Header />
