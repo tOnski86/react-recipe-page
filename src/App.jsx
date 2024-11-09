@@ -7,7 +7,7 @@ import Nutrition from './components/Nutrition';
 
 function App() {
   return (
-    <>
+    <div className='md:max-w-2xl md:my-12 bg-white md:rounded-2xl'>
       <Banner />
       <div className='px-8'>
         <Header />
@@ -16,7 +16,7 @@ function App() {
         <Instructions />
         <Nutrition />
       </div>
-    </>
+    </div>
   );
 }
 
