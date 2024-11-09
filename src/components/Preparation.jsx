@@ -1,6 +1,6 @@
 function Preparation() {
   return (
-    <div className='bg-rose-50 rounded-xl p-6'>
+    <div className='bg-rose-50 rounded-xl p-6 pb-4 mb-8'>
       <h2 className='text-rose-800 text-2xl font-semibold font-outfit mb-3'>
         Preparation time
       </h2>

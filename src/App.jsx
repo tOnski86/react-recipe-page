@@ -21,7 +21,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <div className='*:pb-8 *:pt-8 *:border-b-2  *:border-stone-100'></div> */
-}
