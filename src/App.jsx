@@ -1,5 +1,23 @@
+import Banner from './components/Banner';
+import Header from './components/Header';
+import Preparation from './components/Preparation';
+import Ingredients from './components/Ingredients';
+import Instructions from './components/Instructions';
+import Nutrition from './components/Nutrition';
+
 function App() {
-  return <h1 className='font-youngSerif text-rose-800'>Hello React!</h1>;
+  return (
+    <>
+      <Banner />
+      <div className='*:pb-8 *:pt-8 *:border-b-2 *:border-stone-100 px-6'>
+        <Header />
+        <Preparation />
+        <Ingredients />
+        <Instructions />
+        <Nutrition />
+      </div>
+    </>
+  );
 }
 
 export default App;
